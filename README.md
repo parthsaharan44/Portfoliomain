@@ -88,8 +88,8 @@ Main Portfolio
 <section>
   <h2>Contact</h2>
   <p style="color:#cccccc">Let’s work together or collaborate on creative projects.</p>
-  <p>Email: <strong>your-email@example.com</strong></p>
-  <p>Instagram: <strong>@yourhandle</strong></p>
+  <p>Email: <strong>parthsaharan44@gmail.com</strong></p>
+  <p>Instagram: <strong>@parth.saharn</strong></p>
 </section>
 
 <footer>

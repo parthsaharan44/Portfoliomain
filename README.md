@@ -1,2 +1,100 @@
 # Portfoliomain
 Main Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parth Saharan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f0f0f; color: #ffffff; line-height: 1.6; }
+    header { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40px; }
+    header h1 { font-size: 3rem; font-weight: 700; }
+    header p { max-width: 600px; margin: 20px auto; color: #cccccc; }
+    .btn { display: inline-block; margin-top: 20px; padding: 12px 28px; background: #ffffff; color: #0f0f0f; border-radius: 30px; text-decoration: none; font-weight: 600; }
+
+    section { padding: 80px 10%; }
+    h2 { font-size: 2rem; margin-bottom: 20px; }
+
+    .about p { max-width: 800px; color: #cccccc; }
+
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-top: 30px; }
+    .skill { background: #1a1a1a; padding: 20px; border-radius: 15px; text-align: center; }
+
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; margin-top: 30px; }
+    .card { background: #1a1a1a; padding: 25px; border-radius: 18px; }
+    .card h3 { margin-bottom: 10px; }
+    .card p { color: #bbbbbb; }
+
+    footer { text-align: center; padding: 30px; background: #0a0a0a; color: #888888; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Parth Saharan</h1>
+    <p>Video Editor • Content Creator • Visual Storyteller
+      <br>Crafting engaging videos and stories across YouTube, Instagram & digital platforms.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Video Editor and Content Creator with hands-on experience managing YouTube and social media platforms. I specialize in editing high-retention videos, storytelling through visuals, and building engaging digital communities. Alongside my professional work, I am an active photographer and traveler who captures moments and turns them into stories.
+  </p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">Video Editing</div>
+    <div class="skill">Adobe Premiere Pro</div>
+    <div class="skill">Adobe Photoshop</div>
+    <div class="skill">Thumbnail Design</div>
+    <div class="skill">YouTube Management</div>
+    <div class="skill">Instagram Growth</div>
+    <div class="skill">Content Strategy</div>
+    <div class="skill">Photography</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Experience & Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Video Editor – ATBTushar</h3>
+      <p>Edited YouTube videos, managed YouTube & Instagram accounts, handled Discord community, optimized content strategy, and supported audience growth.</p>
+    </div>
+    <div class="card">
+      <h3>Photography Society – Pixelation</h3>
+      <p>Participated in photo walks, event coverage, and creative shoots. Focused on storytelling through visuals and travel photography.</p>
+    </div>
+    <div class="card">
+      <h3>Travel Photography</h3>
+      <p>Captured stories across cities, documenting people, culture, streets, and moments through a cinematic and narrative approach.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p style="color:#cccccc">Let’s work together or collaborate on creative projects.</p>
+  <p>Email: <strong>your-email@example.com</strong></p>
+  <p>Instagram: <strong>@yourhandle</strong></p>
+</section>
+
+<footer>
+  © 2026 Parth Saharan. All Rights Reserved.
+</footer>
+
+</body>
+</html>
